@@ -1,0 +1,26 @@
+{
+    "name": "vamanai/sentiment",
+    "description": "Laravel machine learning based Text Sentiment Analysis package from VamanAI.com",
+    "authors": [
+        {
+            "name": "Parth Rai Sharma",
+            "email": "parthrai2@gmail.com"
+        }
+    ],
+    "extra": {
+
+    },
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/psr-http-message-bridge": "0.2"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Sentiment\\": "src/"
+        }
+    }
+}
