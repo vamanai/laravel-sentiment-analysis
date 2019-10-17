@@ -26,7 +26,7 @@ class Vaman {
 
 
         return $response;
-       dd($response);
+
     }
 
 }
